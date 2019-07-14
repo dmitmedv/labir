@@ -1,0 +1,15 @@
+.wrap{
+	width: 320px;
+	height: 320px;
+	padding: 10px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start
+}
+.wrap div{
+	height: 30px;
+	width: 30px;
+	border: 1px solid;
+}
